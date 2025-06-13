@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Classifier</title>
+</head>
+<body>
+  <h1>Upload Image for Classification</h1>
+  <form action="/predict/" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" />
+    <input type="text" name="model_id" placeholder="Enter Model ID">
+    <input type="submit" value="Classify">
+  </form>
+</body>
+</html>
